@@ -1,0 +1,99 @@
+body {
+  background: rgb(255, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 100%;
+  margin: 0px auto;
+  border: 2px solid white;
+}
+header {
+  background-color: #ff0000;
+  text-align: center;
+  color: white;
+  border: 3px solid rgb(194, 124, 124);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+nav {
+  background: rgb(0, 174, 255);
+  width: 100%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.menu {
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  padding: 15px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.menu li a:hover {
+  background: #ff0000;
+}
+.menu li a:active {
+  box-shadow: 0px 5px 0px rgba(17, 14, 9, 0.979);
+}
+.clearfix {
+  clear: both;
+}
+
+#content {
+  float: left;
+  width: 80%;
+  min-height: 424px;
+  background: rgb(133, 241, 10);
+}
+.article {
+  color: rgb(17, 14, 14);
+
+  border-bottom: 1px solid rgb(253, 253, 253);
+  padding-bottom: 10px;
+}
+.article:first-child {
+  padding-top: 10px;
+  border-top: 1px solid rgb(255, 247, 247);
+}
+.article h2 {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.article p {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  background: rgb(255, 165, 0);
+  min-height: 424px;
+}
+aside h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.footerFondo {
+  background: black;
+  width: 100%;
+  color: white;
+  height: 80px;
+  text-align: right;
+}
+.footerFondo section {
+  padding: 30px;
+  font-size: 25px;
+}
